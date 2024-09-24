@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no" >
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>NIFYA FURNITURES</title>
+</head>
+<body>
+    <section>
+    <header class="head">
+        
+        <h1 class="displaypic">Nifya Furnitures</h1>
+       <div class="logo"><img src="images/logo.png"></div>
+        <nav class="navbar" id="gate">
+            <ul>
+                <li><a href="#home" class="active">Home</a></li>
+                <div class="dropdown">
+                    <button class="dropdown-button" >Furniture</button>
+                    <div class="dropdown-content">
+                        <a href="w.html">Wardrobe</a>
+                        <a href="s.html">Sofa</a>
+                        <a href="d.html">Dining Table</a>
+                        <a href="b.html">Bed </a>
+                       
+                        <script>document.addEventListener('DOMContentLoaded', function() {
+                            var dropdownButton = document.querySelector('.dropdown-button');
+                            var dropdownContent = document.querySelector('.dropdown-content');
+                        
+                            dropdownButton.addEventListener('click', function() {
+                                dropdownContent.style.display = dropdownContent.style.display === 'block' ? 'none' : 'block';
+                            });
+                        
+                            window.addEventListener('click', function(event) {
+                                if (!event.target.matches('.dropdown-button')) {
+                                    if (dropdownContent.style.display === 'block') {
+                                        dropdownContent.style.display = 'none';
+                                    }
+                                }
+                            });
+                        });</script>
+                    </div>
+                </div>
+                  
+                  <li><a href="#contact">Contact Us</a></li>
+                
+            </ul>
+        </nav>
+        <i class='bx bx-menu' id="menu-icon" onclick="togglemenu()"></i>
+        <script>document.addEventListener('DOMContentLoaded', function () {
+            const menuIcon = document.querySelector('#menu-icon');
+            const navBar = document.querySelector('.navbar');
+            const dropdownButton = document.getElementById('db');
+            const dropdownContent = document.getElementById('dbc');
+            const navLinks = document.querySelectorAll('.navbar a');
+          
+            // Toggle the navigation bar when the menu icon is clicked
+            menuIcon.addEventListener('click', function () {
+                navBar.classList.toggle('show');
+            });
+          
+            // Hide the navigation bar when a link is clicked
+            navLinks.forEach(function(link) {
+                link.addEventListener('click', function () {
+                    navBar.classList.remove('show');
+                });
+            });
+          
+            // Toggle the dropdown content when the dropdown button is clicked
+            dropdownButton.addEventListener('click', function (e) {
+                e.stopPropagation(); // Prevents the click event from propagating to parent elements
+                dropdownContent.classList.toggle('show');
+            });
+          
+            // Close the dropdown if clicked outside
+            document.addEventListener('click', function (e) {
+                if (!dropdownButton.contains(e.target)) {
+                    dropdownContent.classList.remove('show');
+                }
+            });
+          });
+          </script>
+    </header>
+    </section>
+    <section>
+    <div class="image" >
+        
+        <center><img src="images/recliner.jpg" class="image" ></center>
+        <h1 id="capt">Feel the Comfort Of Our Handwork</h1>
+    </div>
+    </section>
+
+
+    <section>
+    <div class=" furniture" id="wardrobe" >
+        <img src="images/wardrobe.png" id="wd">
+        <h1>Your wardrobe is a reflection of your personality,<br> make it a good one</h1><h2><br>Wardrobe Prices Starts at Rs 20,000<br>EMI Starting from Rs 2,543/Month</h2><hr>
+        <h3><a href="w.html"><b style="color: black;">see more...</b></a></h3>
+    </div>
+    </section>
+    <section>
+        <div class="furniture1" id="sofa">
+            <img src="images/s1.png">
+            <h1>A comfortable sofa is the<br> heart of a happy home</h1><br><h2>Sofa Prices Starts at Rs 14,500<br>EMI starting from Rs 1,801/Month</h2>
+            <h3><a href="s.html"><b style="color: black;">see more...</b></a></h3>
+        </div>
+    </section>
+    <section>
+        <div class="furniture2" id="dining">
+            <img src="images/dt.png">
+            <h1>A dining table is more than just a piece of <br>furniture, it's where love and laughter are shared</h1><br><h2>Prices Starts at Rs 16,500<br>EMI Startin from Rs2,050</h2>
+            <h3><a href="d.html"><b style="color: black;">see more...</b></a></h3>
+        </div>
+    </section>
+    <section>
+        <div class="furniture3" id="bed">
+            <img src="images/bed.png">
+            <h1>Your bed is your sanctuary,<br> make it a haven</h1><br><h2>Prices Starts at Rs 16,500<br>EMI Startin from Rs2,050</h2>
+            <h3><a href="b.html"><b style="color: black;">see more...</b></a></h3>
+        </div>
+    </section>
+    <footer>
+        <div class="foot" id="contact">
+            <div class="l1"><img src="images/logo.png"></div>
+            <h1 class="dp1">Nifya Furnitures</h1> 
+        <p>
+            <h1>Contact us</h1>
+            <h2>Phone no:+91 9876543210</h2>
+            <h2>Email us:ABC@gmail.com</h2>
+            <h2>Address:123,BCD st,Chennai</h2>
+            <div class="p1" >
+            <b>Customer Service</b><br>
+            <br>
+            
+
+            Mon - Fri: 8:00 AM - 11:59 PM<br>
+            <br>
+            Sat: 8:00 AM - 8:00 PM<br>
+               <br>
+            Sun: 9:00 AM - 6:00 PM<br>
+             <br></div>
+            
+
+            <div class="p2"><b>Shopping Assistance</b><br>
+            <br>
+            
+            Mon - Fri: 8:00 AM - 11:59 PM<br>
+             <br>
+            Sat: 8:00 AM - 8:00 PM<br>
+              <br>
+            Sun: 9:00 AM - 6:00 PM<br></div>
+
+           
+        </p>
+        <p class="c">&copy; Copy rights reserved || Nifya Furnitures</p>
+        </div>
+    </footer>
+    
+    
+
+        

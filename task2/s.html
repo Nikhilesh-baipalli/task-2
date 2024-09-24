@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <title>Sofa</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/style2.css">
+</head>
+<body>
+    <section>
+        <header class="head">
+            
+            <h1 class="displaypic" >Nifya Furnitures</h1>
+            <div class="logo"><img src="images/logo.png"></div>
+            <nav class="navbar" id="gate">
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <div class="dropdown">
+                        <button class="dropdown-button" >Furniture</button>
+                        <div class="dropdown-content">
+                            <a href="w.html">Wardrobe</a>
+                            <a href="s.html">Sofa</a>
+                            <a href="d.html">Dining Table</a>
+                            <a href="b.html">Bed</a>
+                           
+                            <script>document.addEventListener('DOMContentLoaded', function() {
+                                var dropdownButton = document.querySelector('.dropdown-button');
+                                var dropdownContent = document.querySelector('.dropdown-content');
+                            
+                                dropdownButton.addEventListener('click', function() {
+                                    dropdownContent.style.display = dropdownContent.style.display === 'block' ? 'none' : 'block';
+                                });
+                            
+                                window.addEventListener('click', function(event) {
+                                    if (!event.target.matches('.dropdown-button')) {
+                                        if (dropdownContent.style.display === 'block') {
+                                            dropdownContent.style.display = 'none';
+                                        }
+                                    }
+                                });
+                            });</script>
+                        </div>
+                    </div>
+                      
+                      <li><a href="#contact">Contact Us</a></li>
+                      
+                </ul>
+            </nav>
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <script>document.addEventListener('DOMContentLoaded', function () {
+                const menuIcon = document.querySelector('#menu-icon');
+                const navBar = document.querySelector('.navbar');
+                const dropdownButton = document.getElementById('db');
+                const dropdownContent = document.getElementById('dbc');
+                const navLinks = document.querySelectorAll('.navbar a');
+              
+                // Toggle the navigation bar when the menu icon is clicked
+                menuIcon.addEventListener('click', function () {
+                    navBar.classList.toggle('show');
+                });
+              
+                // Hide the navigation bar when a link is clicked
+                navLinks.forEach(function(link) {
+                    link.addEventListener('click', function () {
+                        navBar.classList.remove('show');
+                    });
+                });
+              
+                // Toggle the dropdown content when the dropdown button is clicked
+                dropdownButton.addEventListener('click', function (e) {
+                    e.stopPropagation(); // Prevents the click event from propagating to parent elements
+                    dropdownContent.classList.toggle('show');
+                });
+              
+                // Close the dropdown if clicked outside
+                document.addEventListener('click', function (e) {
+                    if (!dropdownButton.contains(e.target)) {
+                        dropdownContent.classList.remove('show');
+                    }
+                });
+              });
+              
+              </script>
+        </header>
+        </section>
+        <section>
+            <div class="s11"><img src="images/s1-1.png"  ></div>
+            <div class=" s12" ><img src="images/s1-2.png" ></div>
+                
+                
+             <div class="s1p">   
+                <p><b>Kosmo Nora 4 seater Sofa in Lyon Finish</b>
+                    
+                By Spacewood<br>
+                    <br>
+                (36-Month Warranty)<br>
+                    <br>
+                <b>₹50,204</b><br>
+                    
+                    EMI starting from  ₹2,411/month<br> 
+                    <br>
+                    Only For Today: Get Cashback Worth ₹10,041<br>
+                    <br>
+                   Additional Offers<br>
+                    <br>
+                    Get Additional ₹1,500/- Off On ICICI Credit & Debit Cards, EMI and Internet Banking Transactions <br>
+                    
+                    Get Additional ₹.1,250/- Off On IDFC Credit Card Transactions<br>
+                <br>
+                <b><a href="link" style="color: black;">Buy now</a></b> </p>
+                
+            </div>
+            </section>
+            <section>
+                <div class=" s21"  ><img src="images/s2-1.png"></div>
+                <div class="s22"><img src="images/s2-2.png"></div>
+                <div class="s2p"><p><b>Butterfly Velvet 3 Seater Sofa </b>
+                    
+                    By INDIAN REIGN<br>
+                    <br>
+                    (48-Month Warranty)<br>
+                    <br>
+                    <b>₹24,999</b><br>
+                    
+                    EMI starting from  ₹1,201/mo <br>
+                    <br>
+                    Only For Today: Get Cashback Worth ₹6,250<br>
+                    <br>
+                    Additional Offers<br>
+                    <br>
+                    Get Additional ₹1,500/- Off On ICICI Credit & Debit Cards, EMI and Internet Banking Transactions<br> 
+                    
+                    Get Additional ₹.1,250/- Off On IDFC Credit Card Transactions<br>
+                <br>
+                <b><a href="link" style="color: black;">Buy now</a></b>  </p>
+                    
+                </div>
+            </section>
+            <section>
+                <div class=" s31"  ><img src="images/s3-1.png"></div>
+                <div class="s32"><img src="images/s3-2.png"></div>
+                <div class="s3p"><p><b> Montez Velvet 3 Seater Sofa in Grey & Beige Colour</b>
+                    
+                   
+                    By Casacraft from Pepperfry<br>
+                    <br>
+                    (36-Month Warranty)<br>
+                    <br>
+                    <b>₹46,499</b><br>
+                     
+                    EMI starting from  ₹2,233/mo <br>
+                    <br>
+                    Only For Today: Get Cashback Worth ₹14,531<br>
+                    <br>
+                    Additional Offers<br>
+                    <br>
+                    Get Additional ₹1,500/- Off On ICICI Credit & Debit Cards, EMI and Internet Banking Transactions <br>
+                    
+                    Get Additional ₹.1,250/- Off On IDFC Credit Card Transactions <br>
+                <br>
+            <b>Buy now</b>  </p>
+                    
+                </div>
+            </section>
+            <section>
+                <div class=" s41"  ><img src="images/s4-1.png"></div>
+                <div class="s42"><img src="images/s4-2.png"></div>
+                <div class="s4p"><p><b> Alejandro Velvet 3 Seater Sofa In Dusky Rose Colour</b>
+                    
+                    
+
+By Casacraft <br>
+<br>
+(36-Month Warranty)<br>
+<br>
+
+<b>₹22,999</b><br>
+ 
+EMI starting from  ₹1,105/mo <br>
+Only For Today: Get Cashback Worth ₹6,389<br>
+<br>
+<b><a href="link" style="color: black;">Buy now</a></b> </p>
+                    
+                </div>
+            </section>
+            <section>
+                <div class=" s51"  ><img src="images/s5-1.png"></div>
+                <div class="s52"><img src="images/s5-2.png"></div>
+                <div class="s5p"><p><b>Butterfly Velvet 4 Seater Sofa in Sky Blue Colou </b>
+                    
+                    
+
+By INDIAN REIGN<br>
+<br>
+(48-Month Warranty)
+<b>₹24,999</b><br>
+ 
+EMI starting from  ₹1,201/mo <br>
+<br>
+Only For Today: Get Cashback Worth ₹6,250
+<br>
+Additional Offers<br>
+<br>
+Get Additional ₹1,500/- Off On ICICI Credit & Debit Cards, EMI and Internet Banking Transactions 
+
+Get Additional ₹.1,250/- Off On IDFC Credit Card Transactions<br>
+<br>
+<b><a href="link" style="color: black;">Buy now</a></b>
+
+  </p>
+                    
+                </div>
+            </section>
+            <footer>
+                <div class="foot" id="contact">
+                    <div class="l1"><img src="images/logo.png"></div>
+                                    <h1 class="dp1">Nifya Furnitures</h1> 
+                <p>
+                    <h1>Contact us</h1>
+                    <h2>Phone no:+91 9876543210</h2>
+                    <h2>Email us:ABC@gmail.com</h2>
+                    <h2>Address:123,BCD st,Chennai</h2>
+                    <div class="p1" >
+                        <b>Customer Service</b><br>
+                        <br>
+                        
+            
+                        Mon - Fri: 8:00 AM - 11:59 PM<br>
+                        <br>
+                        Sat: 8:00 AM - 8:00 PM<br>
+                           <br>
+                        Sun: 9:00 AM - 6:00 PM<br>
+                         <br></div>
+                        
+            
+                        <div class="p2"><b>Shopping Assistance</b><br>
+                        <br>
+                        
+                        Mon - Fri: 8:00 AM - 11:59 PM<br>
+                         <br>
+                        Sat: 8:00 AM - 8:00 PM<br>
+                          <br>
+                        Sun: 9:00 AM - 6:00 PM<br></div>
+                        
+                </p>
+                <p class="c">&copy; Copy rights reserved || Nifya Furnitures</p
+             </div>
+                
+            </footer>
+            

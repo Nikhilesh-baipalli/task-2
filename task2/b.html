@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <title>Bed</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/style4.css">
+</head>
+<body>
+    <section>
+        <header class="head">
+            
+            <h1 class="displaypic">Nifya Furnitures</h1>
+            <div class="logo"><img src="images/logo.png"></div>
+            <nav class="navbar" id="gate">
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <div class="dropdown">
+                        <button class="dropdown-button" id="db">Furniture</button>
+                        <div class="dropdown-content" id="dbc">
+                            <a href="w.html">Wardrobe</a>
+                            <a href="s.html">Sofa</a>
+                            <a href="d.html">Dining Table</a>
+                            <a href="b.html">Bed</a>
+                           
+                            <script>document.addEventListener('DOMContentLoaded', function() {
+                                var dropdownButton = document.querySelector('.dropdown-button');
+                                var dropdownContent = document.querySelector('.dropdown-content');
+                            
+                                dropdownButton.addEventListener('click', function() {
+                                    dropdownContent.style.display = dropdownContent.style.display === 'block' ? 'none' : 'block';
+                                });
+                            
+                                window.addEventListener('click', function(event) {
+                                    if (!event.target.matches('.dropdown-button')) {
+                                        if (dropdownContent.style.display === 'block') {
+                                            dropdownContent.style.display = 'none';
+                                        }
+                                    }
+                                });
+                            });</script>
+                        </div>
+                    </div>
+                      
+                      <li><a href="#contact">Contact Us</a></li>
+                      
+                </ul>
+            </nav>
+            <i class='bx bx-menu'  id="menu-icon"></i>
+            <script>document.addEventListener('DOMContentLoaded', function () {
+                const menuIcon = document.querySelector('#menu-icon');
+                const navBar = document.querySelector('.navbar');
+                const dropdownButton = document.getElementById('db');
+                const dropdownContent = document.getElementById('dbc');
+                const navLinks = document.querySelectorAll('.navbar a');
+              
+                // Toggle the navigation bar when the menu icon is clicked
+                menuIcon.addEventListener('click', function () {
+                    navBar.classList.toggle('show');
+                });
+              
+                // Hide the navigation bar when a link is clicked
+                navLinks.forEach(function(link) {
+                    link.addEventListener('click', function () {
+                        navBar.classList.remove('show');
+                    });
+                });
+              
+                // Toggle the dropdown content when the dropdown button is clicked
+                dropdownButton.addEventListener('click', function (e) {
+                    e.stopPropagation(); // Prevents the click event from propagating to parent elements
+                    dropdownContent.classList.toggle('show');
+                });
+              
+                // Close the dropdown if clicked outside
+                document.addEventListener('click', function (e) {
+                    if (!dropdownButton.contains(e.target)) {
+                        dropdownContent.classList.remove('show');
+                    }
+                });
+              });</script>
+        </header>
+        </section>
+        <section>
+            <div class="b1"><img src="images/b1.png"  ></div>
+            
+                
+                
+             <div class="b1p">   
+                <p><b>Kosmo Lilly King Size Bed in Kingston White and Sebastian Oak Finish</b>
+                    
+                    
+                    
+                     with Box Storage
+
+By Spacewood<br>
+<br>
+(36-Month Warranty)<br>
+<br>
+<b>₹24,564</b><br>
+
+EMI starting from  ₹1,180/mo <br>
+<br>
+Only For Today: Get Cashback Worth ₹7,225<br>
+ <br>
+ <b><a href="link" style="color: black;">Buy now</a></b> </p>
+                
+            </div>
+            </section>
+            <section>
+                <div class="b2"><img src="images/b2.png"  ></div>
+                
+                    
+                    
+                 <div class="b2p">   
+                    <p><b>Kosmo Alaska King Size Bed in High Gloss White Finish</b>
+                        
+                        
+                        
+                         with Hydraulic Storage
+                        
+                        By Spacewood<br>
+                        <br>
+                        (36-Month Warranty)<br>
+                        <br>
+                        <b>₹54,343</b><br>
+                        
+                        EMI starting from  ₹2,610/mo <br>
+                        <br>
+                        Only For Today: Get Cashback Worth ₹13,586<br>
+                        <br>
+                        Additional Offers<br>
+                        <br>
+                        Get Additional ₹1,500/- Off On ICICI Credit & Debit Cards, EMI and Internet Banking Transactions <br>
+                        
+                        Get Additional ₹.1,250/- Off On IDFC Credit Card Transactions <br>
+                    <br>
+                    <b><a href="link" style="color: black;">Buy now</a></b> </p>
+                    
+                </div>
+                </section>
+                <section>
+                    <div class="b3"><img src="images/b3.png"  ></div>
+                    
+                        
+                        
+                     <div class="b3p">   
+                        <p><b>Kairavi Solid Wood King Size Bed In White Matt Finish </b>
+                            
+                           
+                            
+                            
+                            
+                            By Wakefit<br>
+                            <br>
+                            (36-Month Warranty)<br>
+                            <br>
+                            <b>₹28,320</b><br>
+                            
+                            EMI starting from  ₹1,360/mo <br>
+                            <br>
+                            Only For Today: Get Cashback Worth ₹7,080<br>
+                            <br>
+                            Additional Offers<br>
+                            <br>
+                            Get Additional ₹1,500/- Off On ICICI Credit & Debit Cards, EMI and Internet Banking Transactions <br>
+                            
+                            Get Additional ₹.1,250/- Off On IDFC Credit Card Transactions <br>
+                        <br>
+                        <b><a href="link" style="color: black;">Buy now</a></b>  </p>
+                        
+                    </div>
+                    </section>
+                    <section>
+                        <div class="b4"><img src="images/b4.png"  ></div>
+                        
+                            
+                            
+                         <div class="b4p">   
+                            <p><b> Kosmo Artisan King Size Bed in Sheesham Finish</b>
+                                
+                                
+                                
+                               
+
+By Spacewood<br>
+<br>
+(36-Month Warranty)<br>
+<br>
+<b>₹52,686</b><br>
+ 
+EMI starting from  ₹2,530/mo <br>
+<br>
+Only For Today: Get Cashback Worth ₹13,172<br>
+<br>
+Additional Offers<br>
+<br>
+Get Additional ₹1,500/- Off On ICICI Credit & Debit Cards, EMI and Internet Banking Transactions <br>
+
+Get Additional ₹.1,250/- Off On IDFC Credit Card Transactions<br>
+<br>
+<b><a href="link" style="color: black;">Buy now</a></b> </p>
+                            
+                        </div>
+                        </section>
+                        <section>
+                            <div class="b5"><img src="images/b5.png"  ></div>
+                            
+                                
+                                
+                             <div class="b5p">   
+                                <p><b>Crucis Solid Wood King Size Bed In Midas Gold Colour</b>
+                                    
+                                    
+                                    
+                                     With Hydraulic Storage
+                                
+                                    By Wakefit<br>
+                                    <br>
+                                    (12-Month Warranty)<br>
+                                    <br>
+                                    <b>₹36,750</b><br>
+                                   
+                                    EMI starting from  ₹1,765/mo <br>
+                                    <br>
+                                    Only For Today: Get Cashback Worth ₹9,188<br>
+                                    <br>
+                                    Additional Offers<br>
+                                    <br>
+                                    Get Additional ₹1,500/- Off On ICICI Credit & Debit Cards, EMI and Internet Banking Transactions <br>
+                                    
+                                    Get Additional ₹.1,250/- Off On IDFC Credit Card Transactions<br>
+                                <br>
+                                <b><a href="link" style="color: black;">Buy now</a></b></p>
+                                
+                            </div>
+                            </section>
+                            <footer>
+                                
+                                <div class="foot" id="contact">
+                                    <div class="l1"><img src="images/logo.png"></div>
+                                    <h1 class="dp1">Nifya Furnitures</h1> 
+                                <p>
+                                    <h1>Contact us</h1>
+                                    <h2>Phone no:+91 9876543210</h2>
+                                    <h2>Email us:ABC@gmail.com</h2>
+                                    <h2>Address:123,BCD st,Chennai</h2>
+                                    <div class="p1" >
+                                        <b>Customer Service</b><br>
+                                        <br>
+                                        
+                            
+                                        Mon - Fri: 8:00 AM - 11:59 PM<br>
+                                        <br>
+                                        Sat: 8:00 AM - 8:00 PM<br>
+                                           <br>
+                                        Sun: 9:00 AM - 6:00 PM<br>
+                                         <br></div>
+                                        
+                            
+                                        <div class="p2"><b>Shopping Assistance</b><br>
+                                        <br>
+                                        
+                                        Mon - Fri: 8:00 AM - 11:59 PM<br>
+                                         <br>
+                                        Sat: 8:00 AM - 8:00 PM<br>
+                                          <br>
+                                        Sun: 9:00 AM - 6:00 PM<br></div>
+                                        <p class="c">&copy; Copy rights reserved || Nifya Furnitures</p>
+                                </p>
+                                </div>
+                                
+                            </footer>
+</body>
+</html>
